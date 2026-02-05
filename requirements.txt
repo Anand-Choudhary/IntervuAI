@@ -8,7 +8,9 @@ langchain-openai==0.0.5
 anthropic==0.8.1
 
 sqlalchemy[asyncio]==2.0.25
-asyncpg==0.29.0
+aiomysql==0.2.0
+PyMySQL==1.1.0
+cryptography==41.0.7
 alembic==1.13.1
 redis[hiredis]==5.0.1
 aioredis==2.0.1
